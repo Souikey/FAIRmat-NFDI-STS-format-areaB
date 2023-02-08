@@ -169,4 +169,5 @@ The following are the parameter set involved in STS.
 
 
 ### Data Format
-
+[DATA]
+Bias calc (V)	Current (A)	LI Demod 2 X (A)	LI Demod 2 Y (A)	LI Demod 1 X (A)	LI Demod 1 Y (A)	Current [bwd] (A)	LI Demod 2 X [bwd] (A)	LI Demod 2 Y [bwd] (A)	LI Demod 1 X [bwd] (A)	LI Demod 1 Y [bwd] (A)	Current (A) [filt]	LI Demod 2 X (A) [filt]	LI Demod 2 Y (A) [filt]	LI Demod 1 X (A) [filt]	LI Demod 1 Y (A) [filt]	Current (A) [bwd] [filt]	LI Demod 2 X (A) [bwd] [filt]	LI Demod 2 Y (A) [bwd] [filt]	LI Demod 1 X (A) [bwd] [filt]	LI Demod 1 Y (A) [bwd] [filt]
