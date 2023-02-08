@@ -4,8 +4,8 @@
 ## I/V, dI/dV and d<sup>2</sup>I/dV<sup>2</sup> curves
 Today, I/V curves are recored by means of a phase senstive detection device, such as a lock-in amplifier. Depending on the correct usage of the lock-in amplifier, this allows the user to filter the I/V, dI/dV and d<sup>2</sup>I/dV<sup>2 signal and to approximatelly measure the dI/dV and d<sup>2</sup>I/dV<sup>2</sup> data. 
 
-The following are the parameter set involved in STS. 
-( - )  Parameters recorded during measurment employing the SPECS Group GmbH Nanonis BP5e (not as ordered by the BP5e software)
+The following are the parameter set involved in STS.  
+( - )  Parameters recorded during measurment employing the SPECS Group GmbH Nanonis BP5e (not as ordered by the BP5e software)  
 ( + )  Parameters stemming from FAIRMat-NFDI consortia discussions
 
 ## Parameter description of STS
