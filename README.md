@@ -1,10 +1,10 @@
-# Scanning tunneling specstroscopy (STS)
-[STS](https://en.wikipedia.org/wiki/Scanning_tunneling_spectroscopy) was developed scanning tunneling microscopy (STM) to probe surface electronic structure in real
-space has been plagued by a number of experimental problems. In one reported approach by [R. J. Hamers et.al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.1972), I vs V or dl/dV vs V curves are measured without scanning. While such curves contain electronic structure information, the lateral position of the tip is uncertain and real-space images of the surface states are not obtained. Alternatively, images of dl/dV may be acquired at various bias voltages. First published by [G. Binnig et al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.55.991).
+# Scanning tunneling spectroscopy (STS)
+[STS](https://en.wikipedia.org/wiki/Scanning_tunneling_spectroscopy) was developed following the invention of the scanning tunneling microscope (STM) to probe surface electronic structure. Employing a sharp tip on a substrate, current curves are measured without scanning, usually as a function of voltage (I vs V or simply I/V curves) [G. Binnig et al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.55.991). Such curves contain electronic structure information. Additionally, curves can be recorded per x,y pixel leading to a I/V mapping [R. J. Hamers et.al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.1972). 
 
-In the following decade a series of instruments had become available and employed in a wide field of experiments spanning from physics through materials science to cellular biphysics.
+## I/V, dI/dV and d^2 I / dV^2 curves
+Today, I/V curves are recored by means of a phase senstive detection device, such as a lock-in amplifier. 
 
-Here is the parameter sett of STS during the measurment. There are XX parts that describe the STS.
+The following are the parameter set involved in STS during measurment. There are XX parts that describe the STS.
 
 ## Parameter description of STS
 ### Resolution
