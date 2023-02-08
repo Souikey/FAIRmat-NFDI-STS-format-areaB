@@ -1,4 +1,4 @@
-# Scanning tunneling specstroscopy / STS
+# Scanning tunneling specstroscopy (STS)
 [STS](https://en.wikipedia.org/wiki/Scanning_tunneling_spectroscopy) was developed scanning tunneling microscopy (STM) to probe surface electronic structure in real
 space has been plagued by a number of experimental problems. In one reported approach by [R. J. Hamers et.al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.1972), I vs V or dl/dV vs V curves are measured without scanning. While such curves contain electronic structure information, the lateral position of the tip is uncertain and real-space images of the surface states are not obtained. Alternatively, images of dl/dV may be acquired at various bias voltages. First published by [G. Binnig et al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.55.991).
 
