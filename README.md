@@ -2,17 +2,17 @@
 [STS](https://en.wikipedia.org/wiki/Scanning_tunneling_spectroscopy) was developed following the invention of the scanning tunneling microscope (STM) to probe surface electronic structure. Employing a sharp tip on a substrate, current (I) curves are measured without scanning, usually as a function of voltage (I vs V or simply I/V curves) [G. Binnig et al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.55.991). A correct measurement of such curves enable intepretation of the material's electronic and vibrational structure. Additionally, curves can be recorded per x,y pixel leading to a I/V, dI/dV and d<sup>2</sup>I/dV<sup>2</sup> mapping or microscopy [R. J. Hamers et.al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.1972). 
 
 ## I/V, dI/dV and d<sup>2</sup>I/dV<sup>2</sup> curves
-Today, I/V curves are recored by means of a phase senstive detection device, such as a lock-in amplifier. Depending on the correct usage of the lock-in amplifier, this allows the user to filter the I/V, dI/dV and d<sup>2</sup>I/dV<sup>2 signal and to approximatelly measure the dI/dV and d<sup>2</sup>I/dV<sup>2</sup> data. 
+Today, I/V curves are recored by means of a phase senstive detection device, such as a lock-in amplifier. Depending on the correct usage of the lock-in amplifier, this allows the user to filter the I/V, dI/dV and d<sup>2</sup>I/dV<sup>2</sup> signal and to approximatelly measure the dI/dV and d<sup>2</sup>I/dV<sup>2</sup> data. 
 
 The following are the parameter set involved in STS. Most parameters are recorded during measurment employing the SPECS Group GmbH Nanonis BP5e (not in the order read by the BP5e software)  
 	
-Parameters marked with + stem from FAIRMat-NFDI consortia discussions
+Parameters marked with (+) stem from FAIRMat-NFDI consortia discussions
 
 ## Parameter description of STS
 ### File type
-+ Background file
-+ Reference file
-+ Sample file
++ Background file yes/no (+)
++ Reference file yes/no (+)
++ Sample file yes/no (+)
 + Filename 221122_Au_5K00014	
 - Scan>series name	221122_Au_5K	
 	
