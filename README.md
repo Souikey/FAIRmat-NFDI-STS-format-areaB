@@ -42,6 +42,7 @@ Here is the parameter sett of STS during the measurment. There are XX parts that
 - Bias Spectroscopy>Reset Bias	TRUE	
 - Bias Spectroscopy>Record final Z	FALSE	
 - Bias Spectroscopy>Lock-In run	FALSE	
+
 ### Phase
 - Current>Current (A)	-5.3429E-15	
 - Current>Calibration (A/V)	100E-12	
@@ -76,6 +77,8 @@ Here is the parameter sett of STS during the measurment. There are XX parts that
 - NanonisMain>Animations Period (s)	20E-3	
 - NanonisMain>Indicators Period (s)	300E-3	
 - NanonisMain>Measurements Period (s)	500E-3	
+
+### Output
 - Outputs>Output 0 Mode	User Output	
 - Outputs>Output 1 Mode	User Output	
 - Outputs>Output 2 Mode	User Output	
@@ -125,6 +128,8 @@ Here is the parameter sett of STS during the measurment. There are XX parts that
 - Piezo Configuration>Drift Y (m/s)	0E+0	
 - Piezo Configuration>Drift Z (m/s)	0E+0	
 - Piezo Configuration>Drift correction status (on/off)	FALSE	
+
+### Operation
 - Scan>Scanfield	3.11737E-9;29.1583E-9;15E-9;15E-9;0E+0	
 - Scan>series name	221122_Au_5K	
 - Scan>channels	Current (A);Bias (V);Z (m);LI Demod 2 X (A);LI Demod 2 Y (A);LI Demod 1 X (A);LI Demod 1 Y (A)	
