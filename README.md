@@ -4,11 +4,18 @@
 ## I/V, dI/dV and d<sup>2</sup>I/dV<sup>2</sup> curves
 Today, I/V curves are recored by means of a phase senstive detection device, such as a lock-in amplifier. Depending on the correct usage of the lock-in amplifier, this allows the user to filter the I/V, dI/dV and d<sup>2</sup>I/dV<sup>2 signal and to approximatelly measure the dI/dV and d<sup>2</sup>I/dV<sup>2</sup> data. 
 
-The following are the parameter set involved in STS.  
-( - )  Parameters recorded during measurment employing the SPECS Group GmbH Nanonis BP5e (not as ordered by the BP5e software)  
-( + )  Parameters stemming from FAIRMat-NFDI consortia discussions
+The following are the parameter set involved in STS. Most parameters are recorded during measurment employing the SPECS Group GmbH Nanonis BP5e (not in the order read by the BP5e software)  
+	
+Parameters marked with + stem from FAIRMat-NFDI consortia discussions
 
 ## Parameter description of STS
+### File type
++ Background file
++ Reference file
++ Sample file
++ Filename 221122_Au_5K00014	
+- Scan>series name	221122_Au_5K	
+	
 ### Spectroscopy resolution (ref...)
 - Temperature 1>Temperature 1 (K)	4.92997E+0	
 - Lock-in>Modulated signal	Bias (V)	1E-3
@@ -157,7 +164,6 @@ The following are the parameter set involved in STS.
 
 ### Scan parameters
 - Scan>Scanfield	3.11737E-9;29.1583E-9;15E-9;15E-9;0E+0	
-- Scan>series name	221122_Au_5K	
 - Scan>channels	Current (A);Bias (V);Z (m);LI Demod 2 X (A);LI Demod 2 Y (A);LI Demod 1 X (A);LI Demod 1 Y (A)	
 - Scan>pixels/line	512	
 - Scan>lines	512	
