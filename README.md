@@ -13,7 +13,6 @@ Parameters marked with (+) stem from FAIRMat-NFDI consortia discussions
 ### File type
 + Background file yes/no (+)
 + Reference file yes/no (+)
-+ Sample file yes/no (+)
 + Filename 221122_Au_5K00014	
 - Scan>series name	221122_Au_5K	
 	
