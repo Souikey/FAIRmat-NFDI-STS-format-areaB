@@ -1,6 +1,23 @@
-# Atomic force microscopy / scanning probe microscopy
-[Atomic force microscopy](https://en.wikipedia.org/wiki/Atomic_force_microscopy) was developed in the 1980s. First published by [Binnig et al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.930).
+# Scanning tunneling specstroscopy / STS
+[STS](https://en.wikipedia.org/wiki/Scanning_tunneling_spectroscopy) was developed 
+ scanning tunneling microscopy
+(STM) to probe surface electronic structure in real
+space has been plagued by a number of experimental
+problems. '
+In one reported approach, 2 4
+I vs V or
+dl/dV vs V curves are measured without scanning.
+While such curves contain electronic structure information, the lateral position of the tip is uncertain and
+real-space images of the surface states are not obtained. Alternatively, images of dl/dV may be acquired at various bias voltages. 4
+
+
+irst published by [R. J. Hamers et al. in Physical Review Letters](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.55.991).
+
 In the following decade a series of instruments had become available and employed in a wide field of experiments spanning from physics through materials science to cellular biphysics.
+
+
+
+
 
 # Historical comments
 The idea of measuring colloidal forces and topography are not completely new. However, the first device that had managed to reproducively measure colloidal forces on surfaces was reported in [1969 by Israelachvili, Tabor and Winterton](https://www.jstor.org/stable/2416454?origin=JSTOR-pdf#metadata_info_tab_contents), which lead to the development of the surface forces apparatus (SFA).
