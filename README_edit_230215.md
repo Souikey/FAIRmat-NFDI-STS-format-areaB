@@ -51,7 +51,7 @@ Parameters marked with (+) stem from FAIRMat-NFDI consortia discussions
 - Z-Ctrl hold	TRUE  # When selected, the Z-Controller is set to hold during the pulse. This means that the controller doesn't control the Z position during the pulse.
 - Final Z (m)	N/A
 - Start time	23.11.2022 18:55:16	 # Timestamp of the moment when the acquisition starts by pressing the Start button.
-- Bias Spectroscopy>Z offset (m)	0E+0	 # 
+- Bias Spectroscopy>Z offset (m)	0E+0	 #  Offset added to the initial averaged position Zaver before starting to sweep. This parameter is disabled when Z-Controller to Hold is deselected in the Advanced section. The LED “Alt” next to the Z offset indicates if an alternate Z-controller setpoint is enabled.
 - Bias Spectroscopy>1st Settling time (s)	2.1E-3 	
 - Bias Spectroscopy>Settling time (s)	2.1E-3	 
 - Bias Spectroscopy>Integration time (s)	150E-6	
