@@ -11,44 +11,47 @@ Parameters marked with (+) stem from FAIRMat-NFDI consortia discussions
 
 ## Parameter description of STS
 ### File type
-+ Background file yes/no (+)
++ Background file yes/no (+) #
 + Reference file yes/no (+)
 + Sample file yes/no (+)
 + Filename 221122_Au_5K00014	
 - Scan>series name	221122_Au_5K	
 	
 ### Spectroscopy resolution (ref...)
-- Temperature 1>Temperature 1 (K)	4.92997E+0	
-- Lock-in>Modulated signal	Bias (V)	1E-3
+- Temperature 1>Temperature 1 (K)	4.92997E+0	# Temperature of STM tip
+- (TBA)Temperature 2>Temperature 2 (K)	4.92997E+0	# Temperature of cryshroud-LHe
+- (TBA)Temperature 3>Temperature 3 (K)	4.92997E+0	# Temperature of cryshroud-LN2
+- (TBA)Temperature 4>Temperature 4 (K)	4.92997E+0	#
+- Lock-in>Modulated signal	Bias (V)	1E-3 # Applied bias voltage. To modify the bias you can either enter a value in the digital display or move the slider.
 
-- Integration time (s)	150E-6 
-- Bias Spectroscopy>Number of sweeps	100	
-- Bias Spectroscopy>Sweep Start (V)	-300E-3 	
-- Bias Spectroscopy>Sweep End (V)	300E-3	 
-- Bias Spectroscopy>Num Pixel	4096	 
-- Bias Spectroscopy>Z Avg time (s)	100E-3
-- NanonisMain>RT Frequency (Hz)	20E+3	
-- NanonisMain>Signals Oversampling	10	
-- NanonisMain>Acquisition Period (s)	20E-3	
-- NanonisMain>Animations Period (s)	20E-3	
-- NanonisMain>Indicators Period (s)	300E-3	
-- NanonisMain>Measurements Period (s)	500E-3	
+
+- Integration time (s)	150E-6 # Time during which the data are acquired and averaged.
+- Bias Spectroscopy>Number of sweeps	100	 # Number of sweeps to measure and average.
+- Bias Spectroscopy>Sweep Start (V)	-300E-3  # The first bias values of the sweep.	
+- Bias Spectroscopy>Sweep End (V)	300E-3	 # The last bias values of the sweep.
+- Bias Spectroscopy>Num Pixel	4096	# Define the image resolution. 
+- Bias Spectroscopy>Z Avg time (s)	100E-3 # Duration over which the Z position is recorded and averaged before and after the sweep (the latter only if Record final Z position is selected in the Advanced section). After the initial Z averaging time, if Z-Controller to Hold is selected in the Advanced section, the Z-Controller is set to hold and the tip is placed at the previously averaged Z position (plus Z offset).
+- SoftwareMain>RT Frequency (Hz)	20E+3	# 
+- SoftwareMain>Signals Oversampling	10	# (Signals Periods) The Signals Period is the rate at which the signals are transferred to the host computer running the control software. This is usually lower by a factor of 10 than the sampling rate, because an internal oversampling of the signal is done on the real time engine. You can reduce the oversampling down to 1 in order to resolve higher frequencies in the Spectrum Analyzer.
+- SoftwareMain>Acquisition Period (s)	20E-3	# Update rate for several processes like History Graph, Auto-Approach, and for many Programming Interface functions. This is usually set to 20 ms. All additional timings (7-9) can only be integer multiples of this value. They can be set to different values, but the actual timing value will be coerced to a multiple of the Acquisition Period.
+- SoftwareMain>Animations Period (s)	20E-3	# Update rate of animated graphical indicators. These are e.g. some graphs & sliders. A reasonable value is 40 ms (25 updates per second). Increase this period to reduce the processor load for the graphical user interface, especially on slow computers. This value is purely a user interface update rate and does not affect measurements in any way.
+- SoftwareMain>Indicators Period (s)	300E-3	 # Update rate of digital indicators, e.g. the numbers displayed besides each slider. Here, 3 updates per second, or 300 ms is enough. This value is purely a user interface update rate and does not affect measurements in any way.
+- SoftwareMain>Measurements Period (s)	500E-3	# The Measurements period is the integration time for precise measurements (averaging over specified period), mostly used in sweep modules. Examples are recording of a force-distance curve or a resonance of a cantilever. For fast measurements with small steps, a value of 40 ms may be reasonable. For normal use, 300-500 ms is a good value, but for recording a resonance of a high-Q cantilever, values of several seconds might be necessary. Usually this parameter doesn’t need to be set from this module; the sweep modules will set this value according to the sweep timings.
 
 ### Tip-sample height and reproducibility (ref...)
-- Bias>Bias (V)	100E-3	 
-- Current>Current (A)	-5.3429E-15	
-
-- Bias>Calibration (V/V)	1E+0	 
-- Bias>Offset (V)	0E+0
-- Current>Calibration (A/V)	100E-12	
-- Current>Offset (A)	16.2897E-15	
-- Current>Gain	Not switchable	
-- Z offset (m)	0E+0 
-- Settling time (s)	2.1E-3  
-- Z-Ctrl hold	TRUE 
+- Bias>Bias (V)	100E-3	 # Applied bias voltage.
+- Current>Current (A)	-5.3429E-15	# The tunneling current is displayed here.
+- Bias>Calibration (V/V)	1E+0	 # Calibration of the Bias output. If you have a Range switch the calibration is stored per range setting.
+- Bias>Offset (V)	0E+0  # Allows compensating for an offset in Bias.
+- Current>Calibration (A/V)	100E-12	 # The signals voltages are converted to real world physical values according to the calibration & offset parameters: Physical signal = (Voltage * calibration) + offset.
+- Current>Offset (A)	16.2897E-15   # The same as "Current>Calibration (A/V)" tag
+- Current>Gain	Not switchable	 # None
+- Z offset (m)	0E+0  # Offset added to the initial averaged position Zaver before starting to sweep. This parameter is disabled when Z-Controller to Hold is deselected in the Advanced section. The LED “Alt” next to the Z offset indicates if an alternate Z-controller setpoint is enabled.
+- Settling time (s)	2.1E-3  # Time to wait after changing the bias to the next level and before starting to acquire data. Adjust this parameter to avoid transient effect induced by the bias change. Integration time: time during which the data are acquired and averaged.
+- Z-Ctrl hold	TRUE  # When selected, the Z-Controller is set to hold during the pulse. This means that the controller doesn't control the Z position during the pulse.
 - Final Z (m)	N/A
-- Start time	23.11.2022 18:55:16	 
-- Bias Spectroscopy>Z offset (m)	0E+0	 
+- Start time	23.11.2022 18:55:16	 # Timestamp of the moment when the acquisition starts by pressing the Start button.
+- Bias Spectroscopy>Z offset (m)	0E+0	 # 
 - Bias Spectroscopy>1st Settling time (s)	2.1E-3 	
 - Bias Spectroscopy>Settling time (s)	2.1E-3	 
 - Bias Spectroscopy>Integration time (s)	150E-6	
@@ -109,7 +112,7 @@ Parameters marked with (+) stem from FAIRMat-NFDI consortia discussions
 
 - NanonisMain>Session Path	C:\Users\SPM-PEEM\Desktop\DATA_Nanonis\20220711_CreaTec_Service_Benchmarks_LHe\Nanonis-Session-PMD100-HVHU_CreaTec_Service_PalmaLabBerlin220711	
 - NanonisMain>SW Version	Generic 5e	
-- NanonisMain>UI Release	10771	
+-  Main>UI Release	10771	
 - NanonisMain>RT Release	10771	
 
 ### Cabling and Piezo
